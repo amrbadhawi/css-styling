@@ -1,0 +1,106 @@
+h1{ 
+    color:green;
+}
+body{
+    background-color: pink;
+    color: blue;
+    font-family: arial;
+    margin:0;
+}
+.box-1{
+    background-color:purple;
+    color: aliceblue;
+
+    border: 5px red solid;
+
+    padding: 10px;
+}
+
+.box-1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: 1em;
+}
+.box-2{
+    background-color: aliceblue;
+    border: 30px black solid;
+    padding: 10px;
+    margin: 0 30px;
+}
+.box-2 h1{
+    color: crimson;
+    font-weight: 1000;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.categories{
+    border: 1px lightblue solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:blue
+}
+
+.my-form{
+    padding: 20px;
+}
+
+my-form .form-group{
+    padding: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px15px;
+    border: none;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+}
+
+.clr{
+    clear: both;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.fix-me{
+    position:fixed;
+    top: 400px;
+}
